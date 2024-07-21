@@ -1,0 +1,45 @@
+.private-container{
+ max-width: 1200px;
+ background-color: white;
+ box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+ border-radius: 4px;
+ overflow: hidden;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.private-header{
+    background-color: #4a90e4;
+    color: white;
+    padding:20px;
+    text-align: center;
+    border-radius: 4px 4px 0px 0px;
+}
+.private-content{
+    padding:20px;
+}
+.private-content h3{
+     padding: 20px;
+     border-bottom: 1px solid #e0e0e0;
+     margin-top: 0;
+}
+.private-content p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.privateFooter{
+    padding: 20px;
+    text-align: center;
+}
+.privateFooter button{
+    background-color: #e74c3c;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+
+}
+.privateFooter button:hover{
+    background-color: #c0392b;
+}
